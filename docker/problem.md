@@ -22,3 +22,14 @@ docker run -v /myredis/conf/redis.conf:/usr/local/etc/redis/redis.conf --name my
 
 ## docker镜像共享宿主机环境,以减少镜像体积.
 
+
+
+## Docker启动centos systemctl报错
+
+```shell
+# --privileged 以特权模式启动
+docker run -it -d -p 10022:22 --name main-centos --privileged centos:7.8.2003 /usr/sbin/init
+```
+
+
+
