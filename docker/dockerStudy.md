@@ -2,7 +2,7 @@
 1. define a container with dockerfile
 2. build a image
 ```shell
-docker build -f ${Dockerfile} -t ${imageName}:${imageVersion}
+docker build -f ${Dockerfile} -t ${imageName}:${imageVersion} .
 ```
 
 3 . save a images
@@ -35,7 +35,7 @@ docker save -o ${fileName} ${imageID/tag}
     # 退出会导致容器终止
     docker attach $containerID
     # 退出容器仍会继续运行
-    docker exec $containerID
+    docker exec -it $containerID /bin/bash
     ```
 
 
