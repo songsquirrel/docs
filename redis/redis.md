@@ -72,6 +72,24 @@
 
    
 
+7. string类型常用命令
+
+   GETRANGE key start end : 截取指定key的字符串
+
+   GETSET key value: 用于设定指定key的值, 并返回旧值, 当key不存在时返回nil
+
+   STRLEN key: 返回key所存储字符串的长度
+
+   incr: 自增 decr: 自减  incrby, decrby(数字类型字符串)
+
+   APPEND key value: 拼接字符串
+
+8. 
+
+   
+
+   
+
    
 
    

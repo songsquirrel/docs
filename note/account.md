@@ -24,6 +24,14 @@ appID: wx370b6f0779cfaa4b
 
 ## Docker
 
-阿里云加速地址: "registry-mirrors": [
+阿里云加速地址: {"registry-mirrors": [
     "https://ngqawly9.mirror.aliyuncs.com"
-  ],
+  ]}
+
+## PeanutShell
+
+url: [内网穿透 - 花生壳管理 (oray.com)](https://console.hsk.oray.com/forward)
+
+SN: orayb54ab36c8450
+
+pwd: admin
