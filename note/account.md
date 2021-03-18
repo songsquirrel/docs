@@ -22,6 +22,8 @@ LOLKorea: geunhyeop 密码:ank485622@
 secret: e29b31a9d3c67e234fef575b61402eb2
 appID: wx370b6f0779cfaa4b
 
+原始ID：gh_4a16b2decdaf
+
 ## Docker
 
 阿里云加速地址: {"registry-mirrors": [

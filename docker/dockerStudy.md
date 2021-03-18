@@ -1,4 +1,9 @@
+[Docker Docs](https://docs.docker.com/get-started/)
+
+
+
 ### demo
+
 1. define a container with dockerfile
 2. build a image
 ```shell
@@ -66,3 +71,4 @@ docker save -o ${fileName} ${imageID/tag}
 
 ## Dockerfile 
 
+EXPOSE : 声明镜像需要使用的端口, 方便使用者阅读, 不能映射端口到宿主机.
